@@ -2,66 +2,37 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
 <title>...: EMEIF Massami Emoto :...</title>
-<link href="screen.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-<!--
-body {
-	background-color: #BEBEBE;
-}
-.style1 {
-	color: #FFFFFF;
-	font-family: Helvetica, sans-serif, "Arial Black";
-}
-.style2 {
-	font-family: Helvetica, sans-serif, "Arial Black";
-	color: #FFCC00;
-	font-size: 14px;
-}
-.style3 {
-	color: #FFCC00;
-	font-weight: bold;
-	font-family: Helvetica, sans-serif, "Arial Black";
-	font-size: 14px;
-}
-.style4 {color: #333333}
--->
-</style></head>
+
+<link href="reset.css" rel="stylesheet" type="text/css" media="all" />
+<link href="estrutura.css" rel="stylesheet" type="text/css" media="all" />
+<link href="formatacao.css" rel="stylesheet" type="text/css" media="all" />
 
 <body>
-<div id="corpo">  
-	<div id="cabecalho">
-			<div id="cab_menu">  
-				<ul> 
-						<li> <a href="" title="Painia inicial do site">Home</a></li>
-						<li> <a href="" title="Painia inicial do site">Alunos</a></li>
-						<li> <a href="" title="Painia inicial do site">Pais</a></li>
-						<li> <a href="" title="Painia inicial do site">Professores</a></li>
-						<li> <a href="" title="Painia inicial do site">Contato</a></li>
-				</ul>
-			</div>
-				<div id="login"> 
-					<form id="form1" name="form1" method="post" action="">
-    				  <p><strong><span class="style1">Aluno On-line</span><br /> 
-    				      <span class="style2"> R.A:</span></strong><strong>
-    				      <input name="textfield" type="text" class="input-field" /> </strong>
-  					  </p>
-  					  <p><span class="style3">Senha: </span>
-	  					    <input name="textfield2" type="password" class="input-field" />
-  					        <input name="Submit" type="submit" class="input-button" value="..: Entrar :.." />
-  					  </p>
-	  				</form>
-	  </div>
-	  <div id="conteudo"> <!-- Abre a DIV Conteudo -->
-	  		<div class="eventos"> "eventos" </div>
-			<div id="recentes"> "recentes" 
-					<div class="coluna_direita"> "coluna_direita" </div>
-					<div class="coluna_esquerda"> "coluna_esquerda" </div>
-			</div>
 
-	   </div><!-- Fecha a DIV Conteudo -->
-    	<div id="rodape"> "rodape" </div>
-  </div>
+<div id="container_master">
+
+	<div id="header">
+	   <h1> TEste de Site</h1>
+	</div>
+
+	<div id="container_conteudo">
+	    <ul id="cab_menu">
+		<li> <a href="" title="Painia inicial do site">Home</a></li>
+		<li> <a href="" title="Painia inicial do site">Alunos</a></li>
+		<li> <a href="" title="Painia inicial do site">Pais</a></li>
+		<li> <a href="" title="Painia inicial do site">Professores</a></li>
+		<li> <a href="" title="Painia inicial do site">Contato</a></li>
+	    </ul>
+
+	    <div id="conteudo">
+                  <div class="informacoes_esquerda"></div>
+		  <div class="informacoes_direita"></div>
+	    </div>
+	</div><!-- fim da div container_conteudo -->
+
+<div id="rodape"></div>
 
 </div>
 
